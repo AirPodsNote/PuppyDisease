@@ -69,17 +69,17 @@
                         <outlet property="loginButton" destination="EC3-Bq-Bvb" id="FyR-e3-Ppr"/>
                         <outlet property="registerButton" destination="IzR-LV-EVJ" id="wD5-lt-7nU"/>
                         <segue destination="v77-2N-vjX" kind="show" identifier="GoToLogin" id="zjG-ZE-l2X"/>
-                        <segue destination="g1G-t0-wi5" kind="show" identifier="GoToRegister" id="JcS-sL-cOZ"/>
+                        <segue destination="g1G-t0-wi5" kind="show" identifier="GoToRegister" id="zkK-s6-Vdm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="947.32824427480909" y="3.5211267605633805"/>
         </scene>
-        <!--Resister View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="3fb-ht-HQB">
             <objects>
-                <viewController storyboardIdentifier="RegisterView" id="g1G-t0-wi5" customClass="ResisterViewController" customModule="PuppyDisease" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RegisterView" id="g1G-t0-wi5" customClass="RegisterViewController" customModule="PuppyDisease" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wo9-I4-3hs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -102,17 +102,18 @@
                                     <constraint firstAttribute="height" constant="40" id="U1P-FC-WAz"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="로그인 하기">
+                                <buttonConfiguration key="configuration" style="plain" title="회원가입 하기">
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="38P-iu-ay2"/>
+                                    <action selector="registerPressed:" destination="g1G-t0-wi5" eventType="touchUpInside" id="ZDa-s9-QLD"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호를 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TGe-vF-nzg">
                                 <rect key="frame" x="63" y="303" width="267" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z1j-xE-4xa"/>
@@ -130,6 +131,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Hrh-pk-ICL"/>
+                    <connections>
+                        <outlet property="emailTextfield" destination="F9F-d3-KRj" id="TRW-nV-qBU"/>
+                        <outlet property="passwordTextField" destination="TGe-vF-nzg" id="JPr-lr-sqY"/>
+                        <segue destination="Apy-d7-vZt" kind="show" identifier="RegisterToSelect" id="NpD-2T-JNR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ajO-9a-LyH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,15 +160,16 @@
                                     <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="loginButtonPressed:" destination="v77-2N-vjX" eventType="touchUpInside" id="aOf-R0-9y3"/>
                                     <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g0S-Eq-A6P"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호를 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="umt-5B-v0N">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123456" borderStyle="roundedRect" placeholder="비밀번호를 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="umt-5B-v0N">
                                 <rect key="frame" x="63" y="303" width="267" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="이메일을 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r2h-ax-oq8">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1@naver.com" borderStyle="roundedRect" placeholder="이메일을 입력하세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r2h-ax-oq8">
                                 <rect key="frame" x="63" y="254" width="267" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -183,10 +190,31 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fge-fH-o3L"/>
+                    <connections>
+                        <outlet property="emailTextfield" destination="r2h-ax-oq8" id="fUs-fP-owI"/>
+                        <outlet property="passwordTextField" destination="umt-5B-v0N" id="yxl-4U-Als"/>
+                        <segue destination="Apy-d7-vZt" kind="show" identifier="LoginToSelect" id="LkU-2t-OSs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bw6-xE-iaf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2038.9312977099237" y="-406.33802816901408"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jzL-Xg-pzR">
+            <objects>
+                <viewController id="Apy-d7-vZt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wuW-tH-qBw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jcm-RX-sr4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TD8-4H-Sja"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xBc-RT-OA1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3288" y="4"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rEF-Zs-wPM">
@@ -207,6 +235,9 @@
             <point key="canvasLocation" x="20.610687022900763" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="LkU-2t-OSs"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="puppy_main" width="170.66667175292969" height="170.66667175292969"/>
         <systemColor name="secondarySystemBackgroundColor">

@@ -88,16 +88,40 @@
 			children = (
 				CAFD7D8129BC92E20058D6F7 /* AppDelegate.swift */,
 				CAFD7D8329BC92E20058D6F7 /* SceneDelegate.swift */,
-				CAFD7D8529BC92E20058D6F7 /* ViewController.swift */,
-				CAFD7D9529BC986C0058D6F7 /* LoginViewController.swift */,
-				CAFD7D9729BC98800058D6F7 /* RegisterViewController.swift */,
-				CAFD7D8729BC92E20058D6F7 /* Main.storyboard */,
+				CAFD7D9B29BD57860058D6F7 /* Views */,
+				CAFD7D9C29BD57B10058D6F7 /* Controllers */,
+				CAFD7D9D29BD57DD0058D6F7 /* Models */,
 				CAFD7D8A29BC92E40058D6F7 /* Assets.xcassets */,
 				CAFD7D8C29BC92E40058D6F7 /* LaunchScreen.storyboard */,
 				CAFD7D9929BCB0020058D6F7 /* GoogleService-Info.plist */,
 				CAFD7D8F29BC92E40058D6F7 /* Info.plist */,
 			);
 			path = PuppyDisease;
+			sourceTree = "<group>";
+		};
+		CAFD7D9B29BD57860058D6F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD7D8729BC92E20058D6F7 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAFD7D9C29BD57B10058D6F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CAFD7D8529BC92E20058D6F7 /* ViewController.swift */,
+				CAFD7D9729BC98800058D6F7 /* RegisterViewController.swift */,
+				CAFD7D9529BC986C0058D6F7 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CAFD7D9D29BD57DD0058D6F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

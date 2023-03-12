@@ -26,13 +26,13 @@ class ViewController: UIViewController {
     
     @IBAction func loginButtonTapped(_ sender: UIButton) {
         
-        performSegue(withIdentifier: "GoToLogin", sender: sender)
+        performSegue(withIdentifier: "GoToLogin", sender: self)
     }
     
     
     @IBAction func RegisterButtonTapped(_ sender: UIButton) {
         
-        performSegue(withIdentifier: "GoToRegister", sender: sender)
+        performSegue(withIdentifier: "GoToRegister", sender: self)
     }
     
 
