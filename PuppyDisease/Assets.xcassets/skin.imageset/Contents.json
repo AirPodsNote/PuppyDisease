@@ -1,0 +1,28 @@
+{
+  "images" : [
+    {
+      "filename" : "skin.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "skin 1.svg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "skin 2.svg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "automatic",
+    "preserves-vector-representation" : true,
+    "template-rendering-intent" : "original"
+  }
+}

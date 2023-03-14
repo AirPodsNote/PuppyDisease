@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA7EAEE729BF1EE800B89449 /* PuppyClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CA7EAEE629BF1EE800B89449 /* PuppyClassification.mlmodel */; };
+		CAD62C9D29BDA80C00CFE9D3 /* ONE Mobile POP OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = CAD62C9C29BDA80C00CFE9D3 /* ONE Mobile POP OTF.otf */; };
+		CAD62CAC29BDD13900CFE9D3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CAD62CAB29BDD13800CFE9D3 /* Inceptionv3.mlmodel */; };
 		CAFD7D8229BC92E20058D6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7D8129BC92E20058D6F7 /* AppDelegate.swift */; };
 		CAFD7D8429BC92E20058D6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7D8329BC92E20058D6F7 /* SceneDelegate.swift */; };
 		CAFD7D8629BC92E20058D6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7D8529BC92E20058D6F7 /* ViewController.swift */; };
@@ -16,6 +19,8 @@
 		CAFD7D9629BC986C0058D6F7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7D9529BC986C0058D6F7 /* LoginViewController.swift */; };
 		CAFD7D9829BC98800058D6F7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7D9729BC98800058D6F7 /* RegisterViewController.swift */; };
 		CAFD7D9A29BCB0020058D6F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAFD7D9929BCB0020058D6F7 /* GoogleService-Info.plist */; };
+		CAFD7D9F29BD629B0058D6F7 /* SelectMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7D9E29BD629B0058D6F7 /* SelectMenuController.swift */; };
+		CAFD7DA129BD6EA20058D6F7 /* SkinAIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD7DA029BD6EA20058D6F7 /* SkinAIController.swift */; };
 		D022FA7A5E06C837D9709A3E /* Pods_PuppyDisease.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715C2F7C06ECC13DD5F05246 /* Pods_PuppyDisease.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,10 @@
 		3D57E8CE4D98EA59A2C27018 /* Pods-PuppyDisease.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppyDisease.release.xcconfig"; path = "Target Support Files/Pods-PuppyDisease/Pods-PuppyDisease.release.xcconfig"; sourceTree = "<group>"; };
 		63B8D47FC4E203FAE08998C7 /* Pods-PuppyDisease.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PuppyDisease.debug.xcconfig"; path = "Target Support Files/Pods-PuppyDisease/Pods-PuppyDisease.debug.xcconfig"; sourceTree = "<group>"; };
 		715C2F7C06ECC13DD5F05246 /* Pods_PuppyDisease.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuppyDisease.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7EAEE629BF1EE800B89449 /* PuppyClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PuppyClassification.mlmodel; sourceTree = "<group>"; };
+		CAD62C9C29BDA80C00CFE9D3 /* ONE Mobile POP OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ONE Mobile POP OTF.otf"; path = "../../../Downloads/ONE Mobile 글꼴 3종/POP체/ONE Mobile POP OTF.otf"; sourceTree = "<group>"; };
+		CAD62C9F29BDA81700CFE9D3 /* ONE Mobile POP OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ONE Mobile POP OTF.otf"; sourceTree = "<group>"; };
+		CAD62CAB29BDD13800CFE9D3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		CAFD7D7E29BC92E20058D6F7 /* PuppyDisease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuppyDisease.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFD7D8129BC92E20058D6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAFD7D8329BC92E20058D6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +43,8 @@
 		CAFD7D9529BC986C0058D6F7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		CAFD7D9729BC98800058D6F7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CAFD7D9929BCB0020058D6F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAFD7D9E29BD629B0058D6F7 /* SelectMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenuController.swift; sourceTree = "<group>"; };
+		CAFD7DA029BD6EA20058D6F7 /* SkinAIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinAIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CAD62C9E29BDA81200CFE9D3 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CAD62C9F29BDA81700CFE9D3 /* ONE Mobile POP OTF.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		CAFD7D7529BC92E20058D6F7 = {
 			isa = PBXGroup;
 			children = (
@@ -90,11 +109,12 @@
 				CAFD7D8329BC92E20058D6F7 /* SceneDelegate.swift */,
 				CAFD7D9B29BD57860058D6F7 /* Views */,
 				CAFD7D9C29BD57B10058D6F7 /* Controllers */,
-				CAFD7D9D29BD57DD0058D6F7 /* Models */,
 				CAFD7D8A29BC92E40058D6F7 /* Assets.xcassets */,
+				CAD62C9E29BDA81200CFE9D3 /* Font */,
 				CAFD7D8C29BC92E40058D6F7 /* LaunchScreen.storyboard */,
 				CAFD7D9929BCB0020058D6F7 /* GoogleService-Info.plist */,
 				CAFD7D8F29BC92E40058D6F7 /* Info.plist */,
+				CAD62C9C29BDA80C00CFE9D3 /* ONE Mobile POP OTF.otf */,
 			);
 			path = PuppyDisease;
 			sourceTree = "<group>";
@@ -112,16 +132,13 @@
 			children = (
 				CAFD7D8529BC92E20058D6F7 /* ViewController.swift */,
 				CAFD7D9729BC98800058D6F7 /* RegisterViewController.swift */,
+				CA7EAEE629BF1EE800B89449 /* PuppyClassification.mlmodel */,
 				CAFD7D9529BC986C0058D6F7 /* LoginViewController.swift */,
+				CAFD7D9E29BD629B0058D6F7 /* SelectMenuController.swift */,
+				CAFD7DA029BD6EA20058D6F7 /* SkinAIController.swift */,
+				CAD62CAB29BDD13800CFE9D3 /* Inceptionv3.mlmodel */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		CAFD7D9D29BD57DD0058D6F7 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD62C9D29BDA80C00CFE9D3 /* ONE Mobile POP OTF.otf in Resources */,
 				CAFD7D8E29BC92E40058D6F7 /* LaunchScreen.storyboard in Resources */,
 				CAFD7D9A29BCB0020058D6F7 /* GoogleService-Info.plist in Resources */,
 				CAFD7D8B29BC92E40058D6F7 /* Assets.xcassets in Resources */,
@@ -242,8 +260,12 @@
 			files = (
 				CAFD7D9629BC986C0058D6F7 /* LoginViewController.swift in Sources */,
 				CAFD7D9829BC98800058D6F7 /* RegisterViewController.swift in Sources */,
+				CAFD7D9F29BD629B0058D6F7 /* SelectMenuController.swift in Sources */,
 				CAFD7D8629BC92E20058D6F7 /* ViewController.swift in Sources */,
 				CAFD7D8229BC92E20058D6F7 /* AppDelegate.swift in Sources */,
+				CAD62CAC29BDD13900CFE9D3 /* Inceptionv3.mlmodel in Sources */,
+				CAFD7DA129BD6EA20058D6F7 /* SkinAIController.swift in Sources */,
+				CA7EAEE729BF1EE800B89449 /* PuppyClassification.mlmodel in Sources */,
 				CAFD7D8429BC92E20058D6F7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +414,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADU9G6DNZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PuppyDisease/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -420,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ADU9G6DNZ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PuppyDisease/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
